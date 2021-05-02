@@ -3,7 +3,7 @@ import pytest
 from restaurante import Restaurante
 
 def test_pedidos_na_fila_valor_inicial_padrao_igual_a_zero():
-    restaurante = Restaurante("Pizzaria X")
+    restaurante = Restaurante("Pizzaria X")  #devo instanciar a classe no restaurante.py
     assert restaurante.pedidos_na_fila == 0
 
 def test_pedidos_na_fila_valor_inicial_maior_que_zero():
@@ -30,3 +30,5 @@ def test_remove_um_pedido_na_fila_vazia():
     assert restaurante.pedidos_na_fila == 0
 
 # para rodar o teste: pytest test_restaurante.py
+# para rodar o teste: pytest test_restaurante.py -x --> com isto, ele para na primeira falha
+
