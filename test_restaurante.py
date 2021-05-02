@@ -43,5 +43,7 @@ def test_remocao_de_pedidos(inicial, final):
 # para rodar o teste: pytest test_restaurante.py
 # para rodar o teste: pytest test_restaurante.py -x --> com isto, ele para na primeira falha
 # instalação: pip install pytest-cov
+# próximos passos: mock, CI/CD
+
 
 
